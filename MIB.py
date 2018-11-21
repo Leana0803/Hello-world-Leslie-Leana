@@ -35,7 +35,7 @@ class Alien:
 class Cabine:
         def __init__(self, NoCabine, NoAllee):
                 self.NoCabine = NoCabine
-                self.NoAllee = NoAllee
+                self.NoAllee = NoAllee 
                 
  
 BaseResponsables = { Responsable('1', 'Seldon'), Responsable('2', 'Pelorat') }
