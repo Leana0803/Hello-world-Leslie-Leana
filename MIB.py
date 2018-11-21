@@ -1,6 +1,3 @@
-# Hello-world-Leslie-Leana
-Projet de complément d'informatique L1/ S1
-
 
 class Responsable:
         def __init__(self, NoAllee, Nom):
