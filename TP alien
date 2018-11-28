@@ -37,3 +37,27 @@ q11={ (alien.Nom) for alien in BaseAliens if alien.Planete=='Euterpe' }
 
 ### Question 12 : Est-ce que tous les aliens ont un 'x' dans leur nom?
 q12=
+
+
+>>> q1
+{'Darell', 'Hardin', 'Seldon', 'Trevize', 'Branno', 'Pelorat', 'Demerzel', 'Riose', 'Dornick'}
+>>> q2
+{'Hesperos', 'Kalgan', 'Terminus', 'Uco'}
+>>> q3
+{('4', 'Darneurane', 'Seldon'), ('1', 'Zorglub', 'Branno'), ('8', 'Arghh', 'Pelorat'), ('9', 'Joranum', 'Riose'), ('2', 'Blorx', 'Darell'), ('7', 'Zzzzzz', 'Trevize'), ('3', 'Urxiz', 'Demerzel'), ('6', 'Mulzo', 'Hardin'), ('4', 'Zbleurdite', 'Seldon')}
+>>> q4
+{('Zbleurdite', '1'), ('Joranum', '2'), ('Blorx', '1'), ('Urxiz', '1'), ('Zzzzzz', '2'), ('Mulzo', '2'), ('Arghh', '2'), ('Zorglub', '1'), ('Darneurane', '1')}
+>>> q5
+{'Zzzzzz', 'Arghh', 'Mulzo', 'Joranum'}
+>>> q6
+{'Trantor', 'Nexon', 'Euterpe', 'Helicon'}
+>>> q7
+{'Zorglub', 'Mulzo', 'Blorx', 'Joranum', 'Darneurane', 'Zbleurdite'}
+>>> q8
+{'Seldon', 'Riose'}
+>>> q9
+{'9', '7', '1', '6', '2', '4'}
+>>> q10
+{('Seldon', 'Schwanstucke'), ('Branno', 'Bortsch')}
+>>> q11
+{'Blorx', 'Joranum'}
