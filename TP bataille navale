@@ -6,7 +6,7 @@ boucle de jeu
 
 ->joueur humain
 
-dessiner une grille de 10x10 cases
+dessiner une grille de 10x10 cases( avec Numpy ou list de list)
 le joueur place manuellement ses bateaux sur sa propre grille
 il faut mémoriser l'emplacement des bateaux sur la grille et dans une liste de "bateaux actifs"
 lorsque tous les bateaux sont placés, on peut autoriser le jeu à commencer
@@ -22,7 +22,7 @@ lorsque tous les bateaux sont placés, on peut lancer la boucle du jeu
 
 ->la boucle du jeu
 
-joueur joue (son tour) :
+joueur joue :
 joueur clique sur grille ordi
 si emplacement cliqué != bateau alors raté, signaler "raté !"
 sinon si emplacement cliqué == bateau alors :
@@ -37,6 +37,7 @@ idem :
 si emplacement bombe == bateau alors :
 si bateau entièrement touché alors coulé ! retirer bateau de la liste des bateaux encore actifs
 sinon si bateau partiellement touché alors signaler "touché !"
+L'IA joue autour de la zone touché jusqu'a temps d'avoir coulé le bateau
 fin si touché
 fin si emplacement
 la partie se termine lorsque tous les bateaux d'un adversaire ont été coulés (liste bateaux  == 0)
