@@ -1,1 +1,43 @@
+-> jeu de bataille navale
+
+un joueur humain
+un adversaire numérique (IA)
+boucle de jeu
+
+->joueur humain
+
+dessiner une grille de 10x10 cases
+le joueur place manuellement ses bateaux sur sa propre grille
+il faut mémoriser l'emplacement des bateaux sur la grille et dans une liste de "bateaux actifs"
+lorsque tous les bateaux sont placés, on peut autoriser le jeu à commencer
+
+
+ ->adversaire numérique (IA)
+
+dessiner une grille 10x10 cases côté ordi
+l'ordinateur place ses bateaux par tirage au sort des emplacements
+il faut mémoriser l'emplacement des bateaux sur la grille et dans une liste de "bateaux actifs"
+lorsque tous les bateaux sont placés, on peut lancer la boucle du jeu
+
+
+->la boucle du jeu
+
+joueur joue (son tour) :
+joueur clique sur grille ordi
+si emplacement cliqué != bateau alors raté, signaler "raté !"
+sinon si emplacement cliqué == bateau alors :
+si bateau entièrement touché alors coulé ! retirer bateau de la liste des bateaux encore actifs
+sinon si bateau partiellement touché alors signaler "touché !"
+fin si touché
+fin si emplacement
+IA joue (son tour) :
+ordi tire au hasard un emplacement dans la grille du joueur
+ordi montre à joueur où sa bombe est tombée
+idem :
+si emplacement bombe == bateau alors :
+si bateau entièrement touché alors coulé ! retirer bateau de la liste des bateaux encore actifs
+sinon si bateau partiellement touché alors signaler "touché !"
+fin si touché
+fin si emplacement
+la partie se termine lorsque tous les bateaux d'un adversaire ont été coulés (liste bateaux  == 0)
 
