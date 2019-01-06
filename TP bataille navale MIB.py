@@ -140,3 +140,11 @@ for turn in range(50):
         print("tu as perdu")
     turn =+ 1
     print_board(board)
+    
+    
+ ## Fiche de travail
+ 
+ ##     https://docs.google.com/document/d/1n7DuU4ZgGg-6WWbIESdyV5RcOtVwAdN0RtNgfVlAzB8/edit   ##
+  
+    
+    
