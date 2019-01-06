@@ -37,7 +37,7 @@ la partie se termine lorsque tous les bateaux d'un adversaire ont été coulés 
 #    def definir la grille :
 #        def joué au hazard:
 #            def joué avec une tackique: 
-#definir les variables des bateaux (placer les bateau)
+#definir les variables des bateaux (placer les bateaux)
 # affichage de la grille jeu(10*10)
 
 
